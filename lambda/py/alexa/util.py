@@ -4,6 +4,8 @@ import random
 from . import data
 from typing import Dict
 
+#Versión con internacionalización, la nuestra no tiene
+'''
 def load_locale_specific_recipe(locale):
     """Return the recipe dictionary specific to the locale.
 
@@ -15,9 +17,17 @@ def load_locale_specific_recipe(locale):
     # type: (str) -> Dict[str, str]
     return getattr(
         data, "RECIPE_{}".format(locale).upper().replace("-", "_"), None)
+'''
+def load_locale_specific_recipe():
+    return getattr(data, "RECETAS", None)
 
-
+'''
 def get_random_item(locale):
     """Return a random item from the locale specific dict."""
     # type: (str) -> str
     return random.choice(list(load_locale_specific_recipe(locale).keys()))
+'''
+def get_random_item():
+    """Return a random item from the locale specific dict."""
+    # type: (str) -> str
+    return random.choice(list(load_locale_specific_recipe().keys()))
