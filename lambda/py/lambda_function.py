@@ -51,7 +51,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
 
 #Clase genérica de ejemplo, hay que crear una de estas por cada intención. En este caso utilizamos la intención "EJEMPLO" 
 # con la entidad (o como lo llaman en Amazon, slot) "ENTIDAD_EJEMPLO"
-# OJO! Además de programa la clase, luego habría que añadir la función al SkillBuilder, ejemplo en la línea 285 del script.
+# OJO! Además de programa la clase, luego habría que añadir la función al SkillBuilder, ejemplo en la línea 287 del script.
 '''
 class EJEMPLOIntentHandler(AbstractRequestHandler):
     """Handler for EJEMPLO Intent."""
