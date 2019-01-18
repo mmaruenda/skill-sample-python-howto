@@ -102,7 +102,7 @@ class RecetaIntentHandler(AbstractRequestHandler):
         
         #Código para la internazionalización, nosotros no la usamos
         #locale = handler_input.request_envelope.request.locale
-        #_ = handler_input.attributes_manager.request_attributes["_"]
+        _ = handler_input.attributes_manager.request_attributes["_"]
         
         #Busca en el mensaje recibido si lleva una entidad, si no la tuviera, la variable nombre_comida queda vacía
         try:
