@@ -23,6 +23,6 @@ RECETAS = {
     'cocido': 'Echa a la olla sin miedo garbanzos, verdura y carne de segunda... y que el calor y el tiempo haga la magia.',
     'macarrones': 'Agua a hervir, los tiras, y a esperar lo que ponga en el paquete.',
     'pizza': 'A primeros de mes, llama a tu pizzero de confianza; a final de mes, calienta el horno, y háztela tú.',
-    'lentejas': 'Descongela el tupper que te ha hecho tu mama, y caliéntalas en el microondas.'.
+    'lentejas': 'Descongela el tupper que te ha hecho tu mama, y caliéntalas en el microondas.',
     'pulpo': 'Lo hagas como lo hagas, no te olvides de darle una buena paliza.'
 }
